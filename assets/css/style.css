@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+button.btn{
+  padding: 20px;
+  border: none;
+  background-color: #1E69B8;
+  color: white;
+  cursor: pointer;
+}
+.row{
+  width: 100%;
+  padding: 50px 0;
+}
+.row .three{
+  width: 33%;
+  display: inline-block;
+}
+.text-center{
+  text-align: center;
+}
+.title{
+  font-weight: normal;
+  margin: auto;
+  width: 250px;
+  font-size: 33px;
+}
+p.lead{
+  margin: 40px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.item-title::after,.title::after{
+  display: block;
+  content: "";
+  background: #1E69B8;
+  height: 2px;
+  margin-top: 13px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar .content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar .content .brand-name {
+  width: 150px;
+  height: 70px;
+  object-fit: contain;
+  object-position: center;
+  font-size: larger;
+}
+
+.navbar .content .navbar-nav {
+  display: flex;
+}
+
+.navbar .content .navbar-nav .nav-item {
+  margin-inline-end: 20px;
+}
+
+.navbar .content .navbar-nav .nav-item:last-child {
+  margin-inline-end: 0px;
+}
+
+.navbar .content .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark-color);
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+header {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+header .content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-image: url(../images/testmonials.jpg);
+  background-size: cover;
+  position: relative;
+  height: 500px;
+
+}
+header .content .header-data{
+  position: absolute;
+  color: white;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+header .content .header-data .main-btn{
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.appointment{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+.appointment .appointment-parent{
+  font-size: 20px;
+  padding: 20px;
+}
+.appointment button,.appointment p{
+  display: inline-block;
+}
+.appointment button{
+  margin-left: 3em;
+}
+.why-us{
+  padding: 40px 0;
+}
